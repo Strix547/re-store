@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #d3d3d3;
+  .cart-icon {
+    padding-right: 5px;
+    color: #006eff;
+  }
+  a:first-child {
+    font-family: "Roboto-Bold";
+    font-size: 28px;
+  }
+  a:last-child {
+    span {
+      font-family: "Roboto-Medium";
+    }
+  }
+}

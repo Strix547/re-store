@@ -1,0 +1,70 @@
+.shopping-cart-table {
+  margin-top: 25px;
+  table {
+    width: 100%;
+    margin-top: 15px;
+    text-align: left;
+    thead {
+      border-top: 1px solid #d3d3d3;
+      border-bottom: 1px solid #d3d3d3;
+      th {
+        font-family: "Roboto-Medium";
+      }
+    }
+    th,td {
+      height: 50px;
+    }
+    .actions {
+      button {
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        margin-right: 10px;
+        transition: 0.3s;
+        &:hover {
+          &.decrease,
+          &.increase,
+          &.delete {
+            color: #fff;
+          }
+          transition: 0.3s;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+        &.decrease {
+          color: #e0e02f;
+          border-color: #e0e02f;
+          &:hover {
+            background-color: #e0e02f;
+          }
+        }
+        &.increase {
+          color: green;
+          border-color: green;
+          &:hover {
+            background-color: green;
+          }
+        }
+        &.delete {
+          color: red;
+          border-color: red;
+          &:hover {
+            background-color: red;
+          }
+        }
+      }
+    }
+  }
+  .total {
+    padding-top: 15px;
+    font-size: 24px;
+    text-align: right;
+    span {
+      font-family: "Roboto-Medium";
+    }
+  }
+}

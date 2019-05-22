@@ -1,0 +1,12 @@
+.error-indicator {
+  margin: 25px auto;
+  text-align: center;
+  p {
+    font-size: 20px;
+    color: #e7ae1b;
+    &:first-child {
+      font-family: "Roboto-Bold";
+      font-size: 22px;
+    }
+  }
+}
