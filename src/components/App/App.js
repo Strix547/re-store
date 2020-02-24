@@ -8,7 +8,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import {connect} from 'react-redux'
 
 import Header from '../Header'
-import {HomePage, CartPage} from '../pages'
+import {HomePage, CartPage} from '../../pages'
 
 
 const App = ({total, itemsCount}) => {

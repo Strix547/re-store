@@ -1,5 +1,5 @@
 import React from 'react'
-import ShoppingCartTable from '../ShoppingCartTable';
+import ShoppingCartTable from '../components/ShoppingCartTable';
 
 const CartPage = () => {
   return (
